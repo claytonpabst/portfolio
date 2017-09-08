@@ -57,6 +57,7 @@ app.post('/api/sendEmail', sendEmail)
 
 
 function sendEmail(req, res) {
+  console.log('hit')
 
   const msg = {
       from: 'Portfolio@sendgridmail.com',
@@ -72,6 +73,7 @@ function sendEmail(req, res) {
 
 
   sgMail.send(msg, (err, result) => {
+    console.log(msg, err, result)
 
     if (err) {
       res.send('Error: Message not sent')
