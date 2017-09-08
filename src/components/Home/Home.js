@@ -92,21 +92,21 @@ class Home extends Component {
             <div className='singleProjectBank'>
               <div className='singleProjectInfo'>
                 <a href='https://www.youtube.com/watch?v=cL0dP7VKU8Y' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
-                <a href='http://www.bank.claytonpabst.com' className='singleProjectText textDecorationNone'>Website</a>
+                <a href='http://www.bank.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
                 <a href='https://github.com/claytonpabst/merica-money' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
             <div className='singleProjectAqcuire'>
               <div className='singleProjectInfo'>
                 <a href='https://www.youtube.com/watch?v=Sn-WQfTLs6o' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
-                <a href='http://www.acquire.claytonpabst.com' className='singleProjectText textDecorationNone'>Website</a>
+                <a href='http://www.acquire.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
                 <a href='https://github.com/claytonpabst/acquire-with-react-' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
             <div className='singleProjectStudio'>
               <div className='singleProjectInfo'>
                 <a href='' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
-                <a href='http://www.pointstudio.claytonpabst.com' className='singleProjectText textDecorationNone'>Website</a>
+                <a href='http://www.pointstudio.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
                 <a href='https://www.github.com/claytonpabst' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
