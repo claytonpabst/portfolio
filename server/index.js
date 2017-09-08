@@ -90,7 +90,7 @@ function sendEmail(req, res) {
 //   app.set('db', db);
 // })
 
-app.use(express.static(__dirname + '../build'))
+app.use(express.static(__dirname + '/../build'))
 
 var userController = require("./userController.js");
 
