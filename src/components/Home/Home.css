@@ -132,7 +132,7 @@
 
 .projects {
     width: 100%;
-    height: 600px;
+    height: 1000px;
     background: black;
     position: relative;
     clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
@@ -162,60 +162,104 @@
 .projectsContainer {
     /*background: pink;*/
     width: 80%;
-    height: 60%;
-    position: absolute;
-    top: 20%;
-    left: 10%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 80%;
+    padding-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.singleProjectBank {
-    background: url('./img/bank.png') center no-repeat;
+.singleProjectNI {
+    background: url('https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=p5phpr4QTesOPjrreE7%2FjVZ6ZMs%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf3PpfpHZL7aluQ9FfisclAQ0fvKgR2HoD5LpI4y6L9Ujj560dY24ZxUBbFImi24') center no-repeat;
     background-size: cover;
     height: 220px;
-    width: 300px;
+    width: 30%;
     border: 5px solid lightgrey;
     transition: border .5s ease-in-out;
     position: relative;
     box-shadow: 5px 5px 22px 3px rgba(0,0,0,0.75);
 }
-.singleProjectBank:hover {
+.singleProjectNI:hover {
     border: 5px solid black;
 }
 
-.singleProjectAqcuire {
-    background: url('./img/aqcuire.png') center no-repeat;
+.singleProjectAmazon {
+    background: url('https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=vbh3z4U9tXdldDUl%2B2XGhawM2b0%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf366KMONKLOiuV0eLXgclFI6dvL5FDa0D8LuLIK8etlxjsbnJI24ZxUBbFImi24') center no-repeat;
     background-size: cover;
     height: 220px;
-    width: 300px;
+    width: 30%;
+    border: 5px solid lightgrey;
+    transition: border .5s ease-in-out;
+    position: relative;
+    box-shadow: 5px 5px 22px 3px rgba(0,0,0,0.75);
+
+}
+.singleProjectAmazon:hover {
+    border: 5px solid black;
+}
+
+.singleProjectTK {
+    background: url('https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=%2BT%2F3Z2M87bul2AwHvlZCI10G1M8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf3DqcZHfcbCjuV8Sf3kclFI0efL6QTiwD5C0f9vne4ojiJHhcY24ZxUBbFImi24') center no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 30%;
     border: 5px solid lightgrey;
     transition: border .5s ease-in-out;
     position: relative;
         box-shadow: 5px 5px 22px 3px rgba(0,0,0,0.75);
 
 }
-.singleProjectAqcuire:hover {
+.singleProjectTK:hover {
     border: 5px solid black;
 }
+                .singleProjectBank {
+                    background: url('./img/bank.png') center no-repeat;
+                    background-size: cover;
+                    height: 220px;
+                    width: 30%;
+                    border: 5px solid lightgrey;
+                    transition: border .5s ease-in-out;
+                    position: relative;
+                    box-shadow: 5px 5px 22px 3px rgba(0,0,0,0.75);
+                }
+                .singleProjectBank:hover {
+                    border: 5px solid black;
+                }
 
-.singleProjectStudio {
-    background: url('./img/pointStudio.png') center no-repeat;
-    background-size: cover;
-    height: 220px;
-    width: 300px;
-    border: 5px solid lightgrey;
-    transition: border .5s ease-in-out;
-    position: relative;
-        box-shadow: 5px 5px 22px 3px rgba(0,0,0,0.75);
+                .singleProjectAqcuire {
+                    background: url('./img/aqcuire.png') center no-repeat;
+                    background-size: cover;
+                    height: 220px;
+                    width: 30%;
+                    border: 5px solid lightgrey;
+                    transition: border .5s ease-in-out;
+                    position: relative;
+                    box-shadow: 5px 5px 22px 3px rgba(0,0,0,0.75);
 
-}
-.singleProjectStudio:hover {
-    border: 5px solid black;
-}
+                }
+                .singleProjectAqcuire:hover {
+                    border: 5px solid black;
+                }
+
+                .singleProjectStudio {
+                    background: url('./img/pointStudio.png') center no-repeat;
+                    background-size: cover;
+                    height: 220px;
+                    width: 30%;
+                    border: 5px solid lightgrey;
+                    transition: border .5s ease-in-out;
+                    position: relative;
+                        box-shadow: 5px 5px 22px 3px rgba(0,0,0,0.75);
+
+                }
+                .singleProjectStudio:hover {
+                    border: 5px solid black;
+                }
 
 .singleProjectInfo {
     background: rgba(150, 150, 150);
