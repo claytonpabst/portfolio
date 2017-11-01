@@ -68,7 +68,7 @@ class Home extends Component {
         <header className='staticHeader'>
           <div className='headerRight'>
             <a href='#projects' className='headerRightH1'>Projects</a>
-            <a href='https://docs.google.com/document/d/17xf_oAuS1OKH01EguO4IqHZ25rP9Runs1iuEirglnbc/edit?usp=sharing' className='headerRightH1'>Resume</a>
+            <a target='_blank' href='https://docs.google.com/document/d/17xf_oAuS1OKH01EguO4IqHZ25rP9Runs1iuEirglnbc/edit?usp=sharing' className='headerRightH1'>Resume</a>
             <a href='#skills' className='headerRightH1'>Skills</a>
             <a href='#about' className='headerRightH1'>About</a>
             <a href='#contactScroll' className='headerRightH1'>Contact</a>
@@ -94,46 +94,51 @@ class Home extends Component {
               <div className='singleProjectInfo'>
                 <h1>eCommerce Clone</h1>
                 <h3>-October 2017-</h3>
-                <a href='https://www.youtube.com/watch?v=nwBvaACZ6Dc' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
-                <a href='http://www.ni.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
-                <a href='https://github.com/claytonpabst/native-instruments-clone' className='singleProjectText textDecorationNone'>Github</a>
+                <a target='_blank' href='https://www.youtube.com/watch?v=nwBvaACZ6Dc' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
+                <a target='_blank' href='http://www.ni.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
+                <a target='_blank' href='https://github.com/claytonpabst/native-instruments-clone' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
             <div className='singleProjectAmazon'>
               <div className='singleProjectInfo'>
                 <h1>Amazon Clone</h1>
-                <a href='https://www.youtube.com/watch?v=cnP9GoSkAhk' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
-                <a href='http://www.amazon.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
-                <a href='https://github.com/claytonpabst/amazon-clone' className='singleProjectText textDecorationNone'>Github</a>
+                <h3>-September 2017-</h3>
+                <a target='_blank' href='https://www.youtube.com/watch?v=cnP9GoSkAhk' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
+                <a target='_blank' href='http://www.amazon.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
+                <a target='_blank' href='https://github.com/claytonpabst/amazon-clone' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
             <div className='singleProjectTK'>
               <div className='singleProjectInfo'>
                 <h1>Tournament App</h1>
-                <a href='http://tournament-king.win/' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
-                <a href='https://www.github.com/claytonpabst' className='singleProjectText textDecorationNone'>Github</a>
+                <h3>-September 2017-</h3>
+                <a target='_blank' href='http://tournament-king.win/' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
+                <a target='_blank' href='https://www.github.com/claytonpabst' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
             <div className='singleProjectBank'>
               <div className='singleProjectInfo'>
                 <h1>Teller System</h1>
-                <a href='https://www.youtube.com/watch?v=cL0dP7VKU8Y' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
-                <a href='http://www.bank.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
-                <a href='https://github.com/claytonpabst/merica-money' className='singleProjectText textDecorationNone'>Github</a>
+                <h3>-August 2017-</h3>
+                <a target='_blank' href='https://www.youtube.com/watch?v=cL0dP7VKU8Y' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
+                <a target='_blank' href='http://www.bank.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
+                <a target='_blank' href='https://github.com/claytonpabst/merica-money' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
             <div className='singleProjectAqcuire'>
               <div className='singleProjectInfo'>
                 <h1>Aqcuire Game</h1>
-                <a href='https://www.youtube.com/watch?v=Sn-WQfTLs6o' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
-                <a href='http://www.acquire.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
-                <a href='https://github.com/claytonpabst/acquire-with-react-' className='singleProjectText textDecorationNone'>Github</a>
+                <h3>-August 2017-</h3>
+                <a target='_blank' href='https://www.youtube.com/watch?v=Sn-WQfTLs6o' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
+                <a target='_blank' href='http://www.acquire.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
+                <a target='_blank' href='https://github.com/claytonpabst/acquire-with-react-' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
             <div className='singleProjectStudio'>
               <div className='singleProjectInfo'>
                 <h1>Studio Site</h1>
-                <a href='https://www.github.com/claytonpabst' className='singleProjectText textDecorationNone'>Github</a>
+                <h3>-July 2017-</h3>
+                <a target='_blank' href='https://www.github.com/claytonpabst' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
           </div>
@@ -195,8 +200,8 @@ class Home extends Component {
         <section className='socialLinks'>
           <h1>Phone: (801) 645-5864</h1>
           <h1>Email: claytonpabst@gmail.com</h1>
-          <h1><a href='https://www.linkedin.com/in/claytonpabst/'>LinkedIn Link</a></h1>
-          <h1><a href='https://github.com/claytonpabst'>Github Link</a></h1>
+          <h1><a target='_blank' href='https://www.linkedin.com/in/claytonpabst/'>LinkedIn Link</a></h1>
+          <h1><a target='_blank' href='https://github.com/claytonpabst'>Github Link</a></h1>
         </section>
       </div>
     );
