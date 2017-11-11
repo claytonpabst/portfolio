@@ -95,7 +95,6 @@ class Home extends Component {
                 <h1>eCommerce Clone</h1>
                 <h3>-October 2017-</h3>
                 <a target='_blank' href='https://youtu.be/I3Dfwz1Xzt8' className='singleProjectText textDecorationNone'>Video Walkthrough</a>
-                <a target='_blank' href='http://www.ni.claytonpabst.com' target='_blank' className='singleProjectText textDecorationNone'>Website</a>
                 <a target='_blank' href='https://github.com/claytonpabst/native-instruments-clone' className='singleProjectText textDecorationNone'>Github</a>
               </div>
             </div>
